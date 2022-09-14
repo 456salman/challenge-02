@@ -5,9 +5,11 @@ a{
     text-align: left;
     text-decoration: none;
     color: aqua;
-    text-shadow: 30  blueviolet;
     display: inline-block;
     border-style: solid;
+    border-radius: 13px;
+    font-size: larger;
+    padding: right;
 }
 
 #top {
@@ -19,7 +21,7 @@ a{
     height: 23px;
     flex-direction: row;
 }
-img{
+#abimg{
     border: 1px solid #ddd;
     border-radius: 4px;
     padding: 5px;
@@ -36,5 +38,19 @@ img{
   height: 300px;
   display: flex;
   flex-direction: column;
+}
+#marketing{
+    border: 1px solid navy;
+    border-radius: 4px;
+    padding: 5px;
+    width: 50%;
+    margin-left: 13px;
+    margin-right: auto;
+    margin-bottom: auto;
+    margin-top: auto;
+    display: flex;
+    flex-direction: column;
+    border-radius:  20px; 
+    
 }
 
