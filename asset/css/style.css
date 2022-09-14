@@ -19,6 +19,22 @@ a{
     height: 23px;
     flex-direction: row;
 }
-#middle{ top: 2333px;
-
+img{
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 151px;
+    margin-left: 40%;
+    margin-right: auto;
+    margin-bottom: -10%;
+    margin-top: auto;
+    display: flex;
+    flex-direction: column;
 }
+#abme{
+    width: 300px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+}
+
