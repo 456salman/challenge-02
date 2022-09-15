@@ -93,7 +93,9 @@ h3{
     border-radius: 10px;
 
   }
-#contact{
+  
+
+  #contact{
     text-align: center;
 }
 
@@ -114,8 +116,22 @@ h3{
     
 }
 
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+  
+  .bottom-right {
+    position: absolute;
+    bottom: 8px;
+    right: 16px;
 
-.middle {
+  }
+  
+
+
+/*.middle {
     transition: .5s ease;
     opacity: 0;
     position: absolute;
@@ -152,7 +168,7 @@ h3{
     height: auto;
     transition: .5s ease;
     backface-visibility: hidden;
-  }
+  }*/
   
 
 
