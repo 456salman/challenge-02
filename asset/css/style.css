@@ -1,5 +1,7 @@
 h1{
     text-align: center;
+    border-style:outset;
+    background-color: aquamarine;
 }
 
 a{
@@ -11,16 +13,27 @@ a{
     border-radius: 13px;
     font-size: larger;
     padding: right;
+
 }
 
 #top {
-    position: fixed;
+    position: relative;
     top: 0;
-    right: -1288px;;
+    /*right: -1100px;;*/
     z-index: 999;
     width: 100%;
     height: 23px;
     flex-direction: row;
+
+    text-align: left;
+    text-decoration: none;
+    color: aqua;
+    display: inline-block;
+    border-style: solid;
+    border-radius: 13px;
+    font-size: larger;
+    padding: right;
+
 }
 #abimg{
     border: 1px solid #ddd;
@@ -33,6 +46,8 @@ a{
     margin-top: auto;
     display: flex;
     flex-direction: column;
+    background-color: aqua;
+    
 }
 #abme{
  width: 300px;
@@ -57,7 +72,110 @@ a{
     
 }
 h2{
-    padding: 0px;
-    margin: 0xp;
+    padding: 20px;
+    margin: 20xp;
+    
 }
 
+h3{
+
+    text-align: right;
+    position: relative;
+    display: inline-block;  
+    padding-right: 5px; 
+    
+}
+.badge {
+    background-color: gray;
+    color: white;
+    padding: 1px 3px;
+    border-radius: 1px;
+    border-radius: 10px;
+
+  }
+#contact{
+    text-align: center;
+}
+
+#image3{
+    border: 1px solid navy;
+    border-radius: 4px;
+    padding: 5px;
+    width: 40%;
+    margin-left: 13px;
+    margin-right: auto;
+    margin-bottom: auto;
+    margin-top: auto;
+    display: row;
+    display: flex;
+    flex-direction: column;
+    border-radius:  20px; 
+    background-color: aqua;
+    
+}
+
+
+.middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  .container {
+    position: relative;
+    width: 50%;
+    
+  }
+  
+  .container:hover #image3 {
+    opacity: 0.3;
+  }
+  
+  .container:hover .middle {
+    opacity: 1;
+  }
+  
+  .text {
+    background-color: #04AA6D;
+    color: white;
+    font-size: 16px;
+    padding: 16px 32px;
+  }
+  .image {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+  }
+  
+
+
+
+
+
+
+/*@media screen and (max-width: 700px) { */
+    /*.column {
+      -ms-flex: 40%;
+      flex: 40%;
+      max-width: 40%;
+    border: 1px solid #ddd;
+    /*border-radius: 4px;
+    padding: 5px;
+    width: 151px;
+    margin-left: 40%;
+    margin-right: auto;
+    margin-bottom: -10%;
+    margin-top: auto;
+    display: flex;
+    flex-direction: column;*/
+    /*width: 10px;
+    height: 10px;
+    }*/
+  
